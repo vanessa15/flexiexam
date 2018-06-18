@@ -1,4 +1,4 @@
---- Clone the GIT REPOSITORY - Import into Eclipse as Existing Project ---
+--- Clone the GIT REPOSITORY/Download Zip then Import into Eclipse as Existing Project ---
 
 --- After Creating the solution either Fork the repository then notify us thru email or just attach the zipped solution on the email ---
 
