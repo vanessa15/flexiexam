@@ -13,8 +13,8 @@
  
  LookAndSay(111221) = 312211	Because 111221 is read off as 3 one's then two 2's then one 1's or "312211"
  
- We define a "Look and Say" sequence as repeatedly call the "LookAndSay" function on its output.
  
+ We define a "Look and Say" sequence as repeatedly call the "LookAndSay" function on its output.
  
 Given the number "start" and the number of iteration "n", calculate the "nth" number in a "LookAndSay" starting from "start".
 
