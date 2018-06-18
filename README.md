@@ -1,4 +1,10 @@
- Define a function LookAndSay as follows 
+--- Clone the GIT REPOSITORY - Import into Eclipse as Existing Project ---
+
+--- After Creating the solution either Fork the repository or email us ---
+
+--- Email Michelle : michelle.ison@flexisourceit.com.au and Jireh.Legaspi@flexisourceit.com.au ---
+
+Define a function "LookAndSay" as follows 
  Read off the digits of the input counting the number of digits in groups of the same digit.
  
  Ex. 
