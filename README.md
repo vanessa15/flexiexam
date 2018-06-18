@@ -1,8 +1,8 @@
 --- Clone the GIT REPOSITORY - Import into Eclipse as Existing Project ---
 
---- After Creating the solution either Fork the repository or email us ---
+--- After Creating the solution either Fork the repository then notify us thru email or just attach the zipped solution on the email ---
 
---- Email Michelle : michelle.ison@flexisourceit.com.au and Jireh.Legaspi@flexisourceit.com.au ---
+--- Email - Michelle : michelle.ison@flexisourceit.com.au and Jireh.Legaspi@flexisourceit.com.au ---
 
 Define a function "LookAndSay" as follows 
  Read off the digits of the input counting the number of digits in groups of the same digit.
