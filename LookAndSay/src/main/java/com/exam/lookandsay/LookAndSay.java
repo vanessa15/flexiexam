@@ -17,7 +17,7 @@ package com.exam.lookandsay;
  *   If the start is "11" and n = 2 LookAndSay("11",2") = 1211 because LookAndSay(LookAndSay(11)) = 1211;
  *   
  *   We will use String representation to avoid Number overflow.
- *   Create the LookAndSay Method defined below and pass all the Unit tests.
+ *   Create the LookAndSay Method defined below and pass all the Unit tests and try to manage possible exceptions.
  */
 public class LookAndSay {
 	
