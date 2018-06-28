@@ -31,5 +31,5 @@ Given the number "start" and the number of iteration "n", calculate the "nth" nu
  
  We will use String representation to avoid Number overflow.
  
- Create the LookAndSay Method defined below and pass all the Unit tests.
+ Create the LookAndSay Method defined below and pass all the Unit tests and try to manage possible exceptions.
  
