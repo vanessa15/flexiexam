@@ -22,10 +22,44 @@ package com.exam.lookandsay;
 public class LookAndSay {
 	
 	
+	int recursive = 0;
+
 	public String LookAndSay(String input, int n) {
-		//TODO DEFINE FUNCTION HERE
-		return "";
-    }
+		// TODO DEFINE FUNCTION HERE
+		if (null == input || input.isEmpty()) {
+			return "";
+		}
+		if (n == 0) {
+			return input;
+		}
+		
+		StringBuilder sb = new StringBuilder();
+		
+		String res = "";
+
+		int position = 0;
+
+		for (int i = 0; i < input.length(); i++) {
+			if (input.charAt(position) != input.charAt(i)) {
+				String digitFound = input.substring(position, i);
+				sb.append(digitFound.length()).append(input.charAt(position));
+				position = i;
+			}
+		}
+
+		sb.append(input.substring(position, input.length()).length()).append(input.charAt(position));
+
+		res = sb.toString();
+
+		if (n > 0) {
+			if (recursive++ < n) {
+				res = LookAndSay(res, n - 1);
+			}
+		}
+
+		return res;
+
+	}
 
 }
 
